@@ -1,2 +1,2 @@
-# JavaScript
+# 🚀 JavaScript
 **Here is JavaScript`s World**
