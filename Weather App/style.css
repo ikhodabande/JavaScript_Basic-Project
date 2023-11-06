@@ -63,6 +63,7 @@ body {
 .weather h1 {
   font-size: 80px;
   font-weight: 500;
+
 }
 
 .weather h2 {
@@ -94,4 +95,8 @@ body {
 .humidity, .wind {
   font-size:20px ;
   margin-top: -6;
+}
+
+.weather {
+  display: none;
 }
