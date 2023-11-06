@@ -5,6 +5,7 @@ const searchBtn = document.querySelector(".search button");
 const weatherIcone = document.querySelector(".weather-icone");
 const error = document.querySelector(".error");
 const weather =  document.querySelector(".weather");
+const card = document.querySelector(".card")
 
 
 async function checkWeather(city){
@@ -13,7 +14,7 @@ async function checkWeather(city){
   if(response.status === 404 || 400 ){
     error.style.display = "block";
     weather.style.display = "none";
-    
+    card.style.background = "linear-gradient(135deg,#ea5050,#8a5454)";
   }
 
  
@@ -46,6 +47,9 @@ async function checkWeather(city){
 
   weather.style.display = "block";
   error.style.display = "none";
+  card.style.background = "linear-gradient(135deg,#5aea50,#548a61)";
+
+
 
 
 
